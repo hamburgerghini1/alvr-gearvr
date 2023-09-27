@@ -2,8 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     namespace 'com.polygraphene.alvr'
-    buildToolsVersion = "33.0.0"
-    compileSdkVersion 33
+    compileSdk 26
     ndkVersion "25.1.8937393"
     defaultConfig {
         applicationId "alvr.client.gearvr"
